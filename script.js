@@ -15,13 +15,33 @@
 
 //ora prendo gli Elementi del Dom
 
+/*
+
 const lampadina = document.getElementById("lampadina"); 
 const bottone = document.getElementById("bottone");
 
 bottone.addEventListener("click", function () {
     lampadina.src = "./img/yellow_lamp.png";
 bottone.innerText = "Accesa";
-})
+}) */
 
 //Devo mettere il percorso in HTML dell'imagine
+
+//# BONUS
+
+//* La lampadina deve accendersi e spegnersi ogni volta che clicco
+// devo capire se la lampadina è accesa o spenta
+// uso contains? forse
+// se contiene white è spenta, se contiene yellow è accesa
+// Proviamo.
+
+//copio quello che ho scritto prima
+const lampadina = document.getElementById("lampadina"); 
+const bottone = document.getElementById("bottone");
+
+
+
+
+
+
 
