@@ -51,9 +51,11 @@ bottone.addEventListener("click", function () {
 
 } else {
     lampadina.src = "./img/white_lamp.png";
+
+    bottone.innerText = "Accendi";
 }
-bottone.innerText = "Accendi";
-}) 
+
+}); 
 
 
 
