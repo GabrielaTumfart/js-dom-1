@@ -1,22 +1,14 @@
-/* 
-Primi passi col DOM
-sercizio di oggi: Primi passi col DOM
 
-repo: js-dom-1
-
-Consegna
-
-Inseriamo in pagina l’immagine della lampadina spenta che trovate in allegato e accanto un bottone con la scritta “Accendi”.
-
-Al click del bottone, la lampadina dovrà accendersi (dovremo quindi utilizzare l’immagine della lampadina accesa, sempre in allegato)
-
-BONUS
-
-Facciamo accendi e spegni:
-
-Al primo click la lampadina si accende e nel bottone compare la scritta "Spegni"
-Al secondo click la lampadina si spegne e nel bottone compare la scritta "Accendi"
-E così via...
-
-Per fare questo bonus potremmo aver bisogno di del metodo string.includes() 
-*/
+//* Innazitutto devo capire cosa devo fare.
+//** Devo prendere la lampadina e un bottone dall'HTML.
+// Quando clicco il bottone, devo cambiare l'immagine della lampadina 
+// La lampadina deve accendersi
+// Come faccio?
+// forse cambio il percorso dell'immagine 
+// Ma prima devo prendere gli elementi dal DOM
+// Oggi abbiamo imparato:
+//  getElementId 
+// addEventListener
+// innerText
+// contains
+// */
