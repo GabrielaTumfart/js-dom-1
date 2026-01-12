@@ -19,7 +19,7 @@ const lampadina = document.getElementById("lampadina");
 const bottone = document.getElementById("bottone");
 
 bottone.addEvenLinstener("click", function () {
-    lampadina.src = "./white_lamp.png."})
+    lampadina.src = "./img7/white_lamp.png."})
 bottone.innerText = "Accesa";
 
 
