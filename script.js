@@ -39,6 +39,19 @@ bottone.innerText = "Accesa";
 const lampadina = document.getElementById("lampadina"); 
 const bottone = document.getElementById("bottone");
 
+bottone.addEventListener("click", function () {
+
+    if (lampadina.src.contains("white_lamp.png")) {
+        
+   
+    lampadina.src = "./img/yellow_lamp.png";
+
+} else {
+    lampadina.src = ""./img/white_lamp.png";
+}
+bottone.innerText = "Accesa";
+}) 
+
 
 
 
