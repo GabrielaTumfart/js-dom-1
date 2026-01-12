@@ -15,7 +15,10 @@
 
 //ora prendo gli Elementi del Dom
 
-bottone.addEvenLinstener("click", ()=> {"./img7/yellow_lamp.png"})
+const lampadina = document.getElementById("lampadina");
+const bottone = document.getElementById("bottone");
+
+bottone.addEvenLinstener("click", f()=> {"./img7/yellow_lamp.png"})
 bottone.innerText = "Accesa";
 
 //Devo mettere il percorso in HTML dell'imagine
