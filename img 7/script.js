@@ -16,4 +16,7 @@
 //ora prendo gli Elementi del Dom
 
 bottone.addEvenLinstener("click", ()=> {"./img7/yellow_lamp.png"})
-bottone.innerText = "Accesa"
+bottone.innerText = "Accesa";
+
+//Devo mettere il percorso in HTML dell'imagine
+
