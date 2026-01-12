@@ -19,9 +19,9 @@ const lampadina = document.getElementById("lampadina");
 const bottone = document.getElementById("bottone");
 
 bottone.addEvenLinstener("click", function () {
-    lampadina.src = "./img 7/white_lamp.png";})
+    lampadina.src = "./img 7/white_lamp.png";
 bottone.innerText = "Accesa";
-
+})
 
 //Devo mettere il percorso in HTML dell'imagine
 
