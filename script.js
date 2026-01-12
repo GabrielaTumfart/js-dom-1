@@ -41,7 +41,7 @@ const bottone = document.getElementById("bottone");
 
 bottone.addEventListener("click", function () {
 
-    if (lampadina.src.contains("white_lamp.png")) {
+    if (lampadina.src.includes("white_lamp.png")) {
         
    //accendo la lampadina
     lampadina.src = "./img/yellow_lamp.png";
