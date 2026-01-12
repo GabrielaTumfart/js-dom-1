@@ -7,19 +7,19 @@
 // forse cambio il percorso dell'immagine 
 // Ma prima devo prendere gli elementi dal DOM
 // Oggi abbiamo imparato:
-//  getElementId 
-// addEventListener
-// innerText
+//  getElementById serve per prendere un elemento della pagina HTML usando il suo Id
+// addEventListener serve per ascoltare un evento ad esempio il click
+// innerText serve per cambiare il texto dentro dell'elemento del HTML
 // contains
 // */
 
 //ora prendo gli Elementi del Dom
 
-const lampadina = document.getElementById("lampadina");
+const lampadina = document.getElementById("lampadina"); 
 const bottone = document.getElementById("bottone");
 
-bottone.addEventListener"click", function () {
-    lampadina.src = "./img 7/white_lamp.png";
+bottone.addEventListener("click", function () {
+    lampadina.src = "./img/yellow_lamp.png";
 bottone.innerText = "Accesa";
 })
 
