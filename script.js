@@ -18,7 +18,7 @@
 const lampadina = document.getElementById("lampadina");
 const bottone = document.getElementById("bottone");
 
-bottone.addEvenLinstener("click", function () {
+bottone.addEventListener"click", function () {
     lampadina.src = "./img 7/white_lamp.png";
 bottone.innerText = "Accesa";
 })
