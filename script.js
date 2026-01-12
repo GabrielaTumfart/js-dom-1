@@ -43,8 +43,11 @@ bottone.addEventListener("click", function () {
 
     if (lampadina.src.contains("white_lamp.png")) {
         
-   
+   //accendo la lampadina
     lampadina.src = "./img/yellow_lamp.png";
+
+    //cambio il testo del bottone
+    bottone.innerText = "Spegni";
 
 } else {
     lampadina.src = ""./img/white_lamp.png";
