@@ -50,7 +50,7 @@ bottone.addEventListener("click", function () {
     bottone.innerText = "Spegni";
 
 } else {
-    lampadina.src = ""./img/white_lamp.png";
+    lampadina.src = "./img/white_lamp.png";
 }
 bottone.innerText = "Accesa";
 }) 
