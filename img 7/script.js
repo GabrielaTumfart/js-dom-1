@@ -12,3 +12,8 @@
 // innerText
 // contains
 // */
+
+//ora prendo gli Elementi del Dom
+
+bottone.addEvenLinstener("click", ()=> {"./img7/yellow_lamp.png"})
+bottone.innerText = "Accesa"
